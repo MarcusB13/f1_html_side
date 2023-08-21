@@ -12,7 +12,7 @@
     --box-background: #333333;
     --data-color: #009ea6;
     --btn-color: #e51937;
-    --border-color: gray;
+    --border-color: #282828;
 }
 
 body {
@@ -207,6 +207,10 @@ header.header {
     margin-left: 20px;
 }
 
+.activity-container{
+    display: flex;
+}
+
 .container-bane-content {
     list-style: none;
     margin-top: 20px;
@@ -239,7 +243,7 @@ header.header {
 }
 
 .container-bane-content-item-aside {
-    height: 100px;
+    height: 125px;
     background-color: var(--box-background);
     flex-grow: 1;
     padding: 10px 20px;
@@ -275,7 +279,7 @@ header.header {
 }
 
 .container-event-content-item {
-    height: 100px;
+    height: 125px;
     background-color: var(--box-background);
     padding: 10px;
     display: flex;
@@ -290,13 +294,13 @@ header.header {
 .container-event-content-item-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .container-event-content-item-content-icon {
     color: red;
     font-size: 20px;
     margin-right: 20px;
+    align-self: center;
 }
 
 .container-event-content-item-content-text {
@@ -355,6 +359,7 @@ header.header {
     height: 2.2em;
     width: 90%;
     color: black;
+    padding-left: 1em;
 }
 
 .footer-logo {

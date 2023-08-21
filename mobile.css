@@ -203,4 +203,18 @@
         margin: 0;
     }
 
+    .under-footer-container{
+        display: grid;
+        grid-row: 1;
+        grid-column: 4;
+    }
+    .col{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: left;
+        margin-bottom: 1em;
+    
+        gap: 2em;
+    }
   }

@@ -321,7 +321,8 @@ header.header {
     display: grid;
     grid-row: 1;
     grid-column: 4;
-    padding: 3em 4em
+    padding: 3em 4em;
+    padding-bottom: 0em;
 }
 
 .footer-col{
@@ -338,6 +339,8 @@ header.header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: var(--border-color) 1px solid;
+    margin-bottom: 10px;
 }
 
 
@@ -364,4 +367,19 @@ header.header {
 
 .footer-logo {
     width: 125%;
+}
+
+.under-footer-container{
+    display: grid;
+    grid-row: 1;
+    grid-column: 4;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    margin-bottom: 1em;
+
+    gap: 2em;
 }
